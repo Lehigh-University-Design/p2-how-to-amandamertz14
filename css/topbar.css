@@ -1,0 +1,28 @@
+.top-bar{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #285A3E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1em;
+    font-family: "Murecho", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 45px;
+   
+
+}
+.top-bar a{
+    
+    float: left;
+    color: #FAC9B8;
+	text-align: center;
+	text-decoration: none;
+
+}
+a:hover{
+    color:brown;
+ }
