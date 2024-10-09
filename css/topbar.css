@@ -7,11 +7,7 @@
     background-color: #285A3E;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 1em;
-    font-family: "Murecho", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100px;
-    font-style: normal;
-    font-size: 45px;
+    
    
 
 }
@@ -21,8 +17,15 @@
     color: #FAC9B8;
 	text-align: center;
 	text-decoration: none;
+    font-family: "Murecho", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-size: 45px;
+    letter-spacing: 7px;
+    
 
 }
 a:hover{
-    color:brown;
+    color: #6F1C00;
  }

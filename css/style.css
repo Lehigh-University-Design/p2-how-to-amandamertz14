@@ -9,15 +9,33 @@
 
 body{
 
+    font-optical-sizing: auto;
+
     background-color: var(--background-color);
+    
+
     
         
 }
+.post{
+    background-color: var(--background-color);
 
+    
+    padding-left: 15px;
+    font-family: "Murecho", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    
+    border:1px solid var(--dark-color);
+    margin-bottom: 1em;
+    padding: .5em 1em;
+
+}
 #head{
 
         font-family: "Lily Script One", system-ui;
-        font-weight: 50;
+        font-weight: 5;
         font-style: normal;
         font-size: 40px;
         color:#6F1C00;
@@ -30,6 +48,49 @@ body{
             text-align:justify;
             margin-left: 350px ;
             font-size: 100px;
+            font-weight: lighter;
 
         }
+
+        p{
+
+            margin-left: 450px;
+            margin-right: 10px;
+            position:relative 40px;
+            text-decoration: none;
+            font-family: "Murecho", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 30px;
+            color:#285B3E;
+
+        }
+
+        .button{
+            border: none;
+            color:#285B3E;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .next-button{
+            border: none;
+            color:#285B3E;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+
+        }
+
 }
+
