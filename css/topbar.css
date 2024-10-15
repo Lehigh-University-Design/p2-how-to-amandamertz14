@@ -1,7 +1,8 @@
 .top-bar{
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0;
+    right: 0;
     display: flex;
     justify-content: space-around;
     background-color: #285A3E;
