@@ -35,14 +35,16 @@ body{
   .home .overlap {
     position: relative;
     width: 1299px;
-    height: 832px;
+    height: 400px;
+    top: 45px;
     left: -10px;
+    
   }
   
   .home .overlap-group {
     position: absolute;
-    width: 962px;
-    height: 832px;
+    width: 400px;
+    height: 402px;
     top: 0;
     left: 0;
   }
@@ -236,6 +238,7 @@ body{
     font-style: normal;
     font-weight: normal;
     line-height: normal;
+    min-width: 20%;
     margin: 10px;
     padding: 30px;
     font-size: 30px;
@@ -275,6 +278,14 @@ body{
     
 }
 
+.flex-container a{
+    color:#6e1b00;
+}
+
+a:hover{
+    color:#2A6041;
+}
+
 .flex-container1{
     margin: 0px;
     display: flex;
@@ -311,33 +322,11 @@ body{
 
 
 
-
-
-
-.listing{
-
-    text-decoration: none;
-    font-family: "Murecho", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: lighter;
-    font-style: normal;
-    font-size: 20px;
-    color:#6F1C00;
-    letter-spacing: 2px;
-    text-align: center;
-  
-
-}
-
-.listing :hover{
-    color:#285B3E;
-}
-
 .heading{
     font-family: "Lily Script One", system-ui;
     font-weight: 5;
     font-style: normal;
-    font-size: 40px;
+    font-size: 45px;
     color:#3D0814;
     /*text-indent: 10%;*/
     margin-left:25px;
@@ -353,7 +342,7 @@ body{
     font-style: normal;
     font-size: 20px;
     color:#6F1C00;
-    margin-left: 30px;
+    margin-left: 35px;
     letter-spacing: 5px;
     /* margin-bottom: 0px; */
 
@@ -370,13 +359,10 @@ body{
 .listing-container{
 
     margin: 0px;
-    display: flex;
     opacity: 100%;
     background-color:#fac9b8;
     text-align: center;
-    width: 180%;
-
-  
+   
 
 }
 
@@ -385,7 +371,6 @@ body{
     text-decoration: none;
     opacity: 100%;
     background-color:#fac9b8;
-    color:#6e1b00;
     text-align: center;
     font-family: "Murecho-Regular", Helvetica;
     font-size: 32px;
@@ -396,15 +381,23 @@ body{
     padding: 30px;
     font-size: 30px;
     letter-spacing: 5px;
+    color:#6e1b00;
 
+   
 
 
 }
 
-a:link{
+.listing-container a {
     color:#6e1b00;
+}
+
+a:link{
+    text-decoration: none;
+    
 }
 
 a:hover{
     color:  #2A6041;
 }
+
