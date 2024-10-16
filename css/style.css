@@ -109,7 +109,7 @@ body{
   }
   
   .home .sunflower {
-    position: absolute;
+    position: fixed;
     width: 651px;
     height: 787px;
     top: 110px;
@@ -146,11 +146,167 @@ body{
     background-image: url(./img/rectangle-12.svg);
     background-size: 100% 100%;
   }
+
+  .sunflower-1{
+    position: fixed;
+    width: 651px;
+    height: 787px;
+    top: 110px;
+    left: -100px;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 30%;
+  }
+
+  .sunflower-2{
+    position: fixed;
+    rotate: 180deg;
+    width: 651px;
+    height: 787px;
+    top: 50px;
+    left: 850px;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 30%;
+
+
+  }
   
-  
+
+/*Plant*/
+
+.sub{
+    margin-right: 200px;
+    color: #6F1C00;
+    margin-left: 400px;
+    text-align: center;
+    font-family: "Murecho-Regular", Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+    
+}
+
+.flex-container{
+    margin: 0px;
+    display: flex;
+    opacity: 100%;
+    justify-content: space-evenly;
+
+}
+
+.flex-end{
+    opacity: 100%;
+    background-color:#fac9b8;
+    align-content: center;
+    font-family: "Murecho-Regular", Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    p{
+        color: #3D0814;
+        text-align:center;
+
+    }
+
+}
+
+.flex-child{
+
+    opacity: 100%;
+    background-color:#fac9b8;
+    color: #2A6041;
+    text-align: center;
+    font-family: "Murecho-Regular", Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+    p{
+        color: #3D0814;
+        text-align:left;
+
+    }
+
+    .listIG{
+        color: #3D0814;
+        text-align:left;
+
+    }
+
+    .pot{
+    
+        align-items: center;
+    }
+
+    .flowers{
+
+        width: 450px;
+      
+    }
+
+    .bed{
+        width: 400px;
+    }
+
+    .shov{
+        width: 400px;
+    }
+
+    
+}
+
+.flex-container1{
+    margin: 0px;
+    display: flex;
+    opacity: 100%;
+    
+    .flex-child1{
+        background-color:#fac9b8;
+        color: #2A6041;
+        text-align: center;
+        font-family: "Murecho-Regular", Helvetica;
+        
+        font-style: normal;
+        font-weight: normal;
+        line-height: normal;
+        margin: 10px;
+        padding: 30px;
+        font-size: 30px;
+        letter-spacing: 5px;
+
+       
+        p{
+            color: #3D0814;
+            text-align:left;
+
+        }
+
+        
+
+
+
+    }
+
+}
+
+
+
     
 
-
+/*random*/
 .post{
     background-color: var(--background-color);
 
@@ -176,7 +332,7 @@ body{
     color:#6F1C00;
 }
 
-
+/*
 #head{
 
         font-family: "Lily Script One", system-ui;
@@ -184,7 +340,7 @@ body{
         font-style: normal;
         font-size: 40px;
         color:#6F1C00;
-        /*text-indent: 10%;*/
+        /*text-indent: 10%;
         margin-left:30px;
         letter-spacing: 15px;
         
@@ -213,19 +369,12 @@ body{
         }
 
 
-        .next-button{
-            border: none;
-            color:#285B3E;
-            padding: 16px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-
-        }
+        
 
 }
+
+*/
+
 
 .listing{
 
