@@ -12,10 +12,7 @@
    
 
 }
-a:hover{
-    color: #6F1C00;
- }
- 
+
 .top-bar a{
     
     float: left;
@@ -31,3 +28,8 @@ a:hover{
     
 
 }
+
+a:hover{
+    color: #6F1C00;
+ }
+ 

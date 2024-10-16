@@ -190,10 +190,14 @@ body{
 }
 
 .flex-container{
+    text-decoration: none;
     margin: 0px;
     display: flex;
     opacity: 100%;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    border: 0px;
+    width: 100%;
+    
 
 }
 
@@ -210,6 +214,7 @@ body{
     padding: 30px;
     font-size: 30px;
     letter-spacing: 5px;
+
     p{
         color: #3D0814;
         text-align:center;
@@ -218,8 +223,10 @@ body{
 
 }
 
-.flex-child{
 
+
+.flex-child{
+    text-decoration: none;
     opacity: 100%;
     background-color:#fac9b8;
     color: #2A6041;
@@ -304,81 +311,12 @@ body{
 
 
 
-    
 
-/*random*/
-.post{
-    background-color: var(--background-color);
-
-    
-    padding-left: 15px;
-    font-family: "Murecho", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 100px;
-    font-style: normal;
-    
-    border:1px solid var(--dark-color);
-    margin-bottom: 1em;
-    padding: .5em 1em;
-
-}
-
-.back{
-    margin-left: 30px;
-    margin-right: 30px;
-    background-color: #FAC9B8;    
-    margin-bottom: 1em;
-    padding: .5em 1em;
-    color:#6F1C00;
-}
-
-/*
-#head{
-
-        font-family: "Lily Script One", system-ui;
-        font-weight: 5;
-        font-style: normal;
-        font-size: 40px;
-        color:#6F1C00;
-        /*text-indent: 10%;
-        margin-left:30px;
-        letter-spacing: 15px;
-        
-        h1{
-            
-            text-align:justify;
-            margin-left: 350px ;
-            font-size: 100px;
-            font-weight: lighter;
-
-        }
-
-        p{
-
-            margin-left: 450px;
-            margin-right: 10px;
-            position:relative 40px;
-            text-decoration: none;
-            font-family: "Murecho", sans-serif;
-            font-optical-sizing: auto;
-            font-weight: 400;
-            font-style: italic;
-            font-size: 30px;
-            color:#285B3E;
-
-        }
-
-
-        
-
-}
-
-*/
 
 
 .listing{
 
-
+    text-decoration: none;
     font-family: "Murecho", sans-serif;
     font-optical-sizing: auto;
     font-weight: lighter;
@@ -386,6 +324,7 @@ body{
     font-size: 20px;
     color:#6F1C00;
     letter-spacing: 2px;
+    text-align: center;
   
 
 }
@@ -426,4 +365,46 @@ body{
         margin: 0;
         /* color: pink; */
     }
+}
+
+.listing-container{
+
+    margin: 0px;
+    display: flex;
+    opacity: 100%;
+    background-color:#fac9b8;
+    text-align: center;
+    width: 180%;
+
+  
+
+}
+
+.listing{
+
+    text-decoration: none;
+    opacity: 100%;
+    background-color:#fac9b8;
+    color:#6e1b00;
+    text-align: center;
+    font-family: "Murecho-Regular", Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+
+
+
+}
+
+a:link{
+    color:#6e1b00;
+}
+
+a:hover{
+    color:  #2A6041;
 }
