@@ -188,6 +188,7 @@ body{
     font-weight: 400;
     line-height: normal;
     margin: 0px;
+    border-radius:10px;
     
 }
 
@@ -203,6 +204,11 @@ body{
 
 }
 
+.flex-container a {
+    color:#3D0814;
+}
+
+
 .flex-end{
     opacity: 100%;
     background-color:#fac9b8;
@@ -216,6 +222,7 @@ body{
     padding: 30px;
     font-size: 30px;
     letter-spacing: 5px;
+    border-radius: 25px;
 
     p{
         color: #3D0814;
@@ -223,6 +230,24 @@ body{
 
     }
 
+}
+
+.flex-box{
+    text-decoration: none;
+    opacity: 100%;
+    background-color:#fac9b8;
+    color: #2A6041;
+    text-align: center;
+    font-family: "Murecho-Regular", Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    min-width: 20%;
+    margin: 10px;
+    padding: 30px;
+    letter-spacing: 5px;
+    border-radius: 25px;
 }
 
 
@@ -234,15 +259,15 @@ body{
     color: #2A6041;
     text-align: center;
     font-family: "Murecho-Regular", Helvetica;
-    font-size: 32px;
+    font-size: 24px;
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    min-width: 20%;
     margin: 10px;
     padding: 30px;
     font-size: 30px;
     letter-spacing: 5px;
+    border-radius: 25px;
 
     p{
         color: #3D0814;
@@ -278,13 +303,7 @@ body{
     
 }
 
-.flex-container a{
-    color:#6e1b00;
-}
 
-a:hover{
-    color:#2A6041;
-}
 
 .flex-container1{
     margin: 0px;
@@ -304,6 +323,7 @@ a:hover{
         padding: 30px;
         font-size: 30px;
         letter-spacing: 5px;
+        border-radius: 25px;
 
        
         p{
@@ -332,6 +352,7 @@ a:hover{
     margin-left:25px;
     /* margin-top: 10px; */
     letter-spacing: 15px;
+    margin-bottom: 25px;
 }
 
 .above-heading{
@@ -357,11 +378,14 @@ a:hover{
 }
 
 .listing-container{
-
+    display:flex;
+    justify-content: center;
     margin: 0px;
     opacity: 100%;
     background-color:#fac9b8;
     text-align: center;
+    border-radius: 25px;
+    
    
 
 }
@@ -370,8 +394,8 @@ a:hover{
 
     text-decoration: none;
     opacity: 100%;
-    background-color:#fac9b8;
     text-align: center;
+    justify-content:space-around;
     font-family: "Murecho-Regular", Helvetica;
     font-size: 32px;
     font-style: normal;
@@ -382,6 +406,8 @@ a:hover{
     font-size: 30px;
     letter-spacing: 5px;
     color:#6e1b00;
+    
+    
 
    
 
@@ -389,7 +415,7 @@ a:hover{
 }
 
 .listing-container a {
-    color:#6e1b00;
+    color:#3D0814;
 }
 
 a:link{
